@@ -16,10 +16,14 @@
     font-size: 20px;
     font-weight: bold;
     color: white;
+    cursor: pointer;
 }
 /* ---- MAIN STYLE ---- */
 header{
     background-color: #fff8f3;
+    background: url(images/developer.png),url(images/header_bg.png);
+    background-position:top left, bottom right;
+    background-repeat: no-repeat;
     padding-top: 50px;
 }
 nav{
@@ -52,7 +56,9 @@ nav .nav-links a{
     font-weight: 600;
     color: #474747;
 }
-
+#banner .banner-content{
+    width: 585px;
+}
 #banner{
    /*border: 1px solid red;*/
    margin: 47px 38px 0px 230px;
@@ -71,4 +77,15 @@ nav .nav-links a{
     font-weight: bold;
     color: #181818;
     margin-bottom: 20px;
+}
+#banner .banner-content p{
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 35px;
+    line-height: 30px;
+    width: 80%;
+}
+#banner .banner-image img{
+    width: 585px;
+    vertical-align: middle;
 }
