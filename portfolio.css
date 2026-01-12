@@ -53,7 +53,7 @@ header{
 }
 nav{
     width: 71%;
-    max-width: 1140px;
+    max-width: 1265px;
     margin: 0 auto;
     /*border: 1px solid red;*/
 }
@@ -262,4 +262,97 @@ footer .footer-container .social .social-icons {
     border-radius: 5px;
     font-size: 10px;
     margin-bottom: 24px;
+}
+
+
+@media screen and (max-width: 576px) {
+    #skills, #Resume {
+    padding-top: 60px;
+    padding-bottom: 130px;
+}
+.skills-box {
+    display: grid;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 20px;
+}
+#about {
+    padding: 20px;
+}
+
+.about-heading h2 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+} 
+.about-heading h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+#about .about-info {
+    flex-direction: column;
+}
+#about .about-info .info-card p {
+    font-size: 15px;
+    color: #757575;
+    line-height: 10px;
+    padding-bottom: 5px;
+}
+.about-heading {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#about .about-content {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff8f3;
+    padding: 10px 20px;
+}
+
+.footer-container {
+    flex-direction: column;
+}
+
+footer .footer-container .social {
+    width: 100%;
+}
+
+.Resume-container {
+    flex-direction: column;
+}
+nav .logo {
+    display: grid;
+    text-align: center;
+}
+
+nav .nav-links {
+    margin-top: 20px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 20px 20px;
+}
+
+#banner {
+    margin: 20px;
+    flex-direction: column;
+}
+#banner .banner-content {
+ width: 100%;
+}
+
+.gapp{
+    display: block;
+}
+
+
+
 }
